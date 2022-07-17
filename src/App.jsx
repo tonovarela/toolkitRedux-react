@@ -13,7 +13,7 @@ function App() {
         <h1>{counter}</h1>
 				<button onClick={() =>{ dispatch(increment()) }}>+1</button>
         <button onClick={() =>{ dispatch(incrementByAmount(5)) }}>+5</button>
-        <button onClick={() =>{ dispatch(decrement()) }}>-</button>
+        <button onClick={() =>{ dispatch(decrement()) }}>-1</button>
 			</div>
 		</div>
 	);
