@@ -7,11 +7,13 @@ import  { store } from './store'
 import App from './App'
 import './index.css'
 import { PokemonApp } from './PokemonApp'
+import { TodoApp } from './TodoApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <Provider store={store}>
-    <PokemonApp/>
+    <TodoApp></TodoApp>
+    {/* <PokemonApp/> */}
     {/* <App /> */}
   </Provider>
   </React.StrictMode>
